@@ -5,10 +5,10 @@ class Hola::Translator
 
 	def hi
 		case @language
+		when "english"
+			"hello world"
 		when "spanish"
 			"hola mundo"
-		when "bangla"
-			"kemon acho"
 		else
 			"hello world"
 		end
